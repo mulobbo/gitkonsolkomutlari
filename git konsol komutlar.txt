@@ -58,5 +58,5 @@ git merge birleştireceğimizbranch
 ----------------------
 SÜRÜM TAGI EKLEMEK 
 git tag yazacaginiztag sürümünilk10hanesi
-
+asderwer3
 
