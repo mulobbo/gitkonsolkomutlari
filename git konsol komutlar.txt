@@ -21,6 +21,19 @@ github a yeni repository açıyoruz
 ------------------
 git branch -M main hangi branch a almak istiyorsak ilkonece branch ı seçiyoruz 
 -------------
+yeni bir branch oluşturmak için o brancha geçmek için
+git checkout -b isim
+-------
+master a geri dönmek için
+git checkout master
+--------
+oluşan dalı silmek için
+git branch -d isim
+-----------------------
+branchi github a göndermek için
+git push origin isim
+
+---------------
 git remote add origin https://github.com/mulobbo/gitkonsolkomutlari.git
 uzak bağlantı komutuyla bağlantımızı ekliyoruz
 -------------------
@@ -32,9 +45,18 @@ git pull komutu ile olur
 GITHUB DAKI REPOSITORY I BILGISAYARIMIZA KLONLAMAK
 git init 
 git pull repoadresi
+git clone repoadresi
 ---------------------
 COMMIT GECMİSİNİ GÖRMEK 
 git log komutu ile eski commit ve commit id lerini görebiliyoruz
 ---------------------
 git checkout commitidilk8hanesi ile eski commite dönebiliyoruz
+--------------------
+İKİ BRANCHI BİRLEŞTİRMEK
+ana branchın içindeyken 
+git merge birleştireceğimizbranch
+----------------------
+SÜRÜM TAGI EKLEMEK 
+git tag yazacaginiztag sürümünilk10hanesi
+
 
