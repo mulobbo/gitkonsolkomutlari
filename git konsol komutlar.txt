@@ -1,0 +1,34 @@
+***ÖNEMLİ***klasöre gizli .git klasörü oluşturmak için git init yazıyoruz
+bu klasörde gir in yerel database i bulunuyor
+--------------
+***ÖNEMLİ 2*** 
+git status yazarak dosyalar değişime uğramış mı bakabiliriz eğer kırmızıysa stage ye eklenmemiştir
+--------------
+git add . yazarak kırmızı olan tüm dosyaları stage ye ekleyebiliriz
+git add dosyaismi yazarak sadece istediğimiz dosyayı ekleyebiliriz
+-------------
+git status yazdığımızda dosyalar yeşile dönmüş ise stage ye eklenmiştir 
+-------------
+STAGE NEDİR???
+stage commit yapmadan önceki bekleme salonudur
+-------------
+git status ta yeşile dönmüş dosyaları yayınlamak için commit yapmamız lazım
+git commit -m "ne istersek yazabiliriz"
+-------------
+GITHUB A YUKLEMEK
+------------------
+github a yeni repository açıyoruz
+------------------
+git branch -M main hangi branch a almak istiyorsak ilkonece branch ı seçiyoruz 
+-------------
+git remote add origin https://github.com/mulobbo/gitkonsolkomutlari.git
+uzak bağlantı komutuyla bağlantımızı ekliyoruz
+-------------------
+ git push -u origin main sunucuya gönderiyoruz (-M main yazmak gerekli ilk seferde daha sonra sadece push yeter)
+-------------------
+DEĞİŞİKLERİ BİLGİSYARIMIZA ÇEKMEK
+git pull komutu ile olur
+---------------------
+GITHUB DAKI REPOSITORY I BILGISAYARIMIZA KLONLAMAK
+git init 
+git pull repoadresi
