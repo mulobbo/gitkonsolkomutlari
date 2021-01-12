@@ -32,3 +32,7 @@ git pull komutu ile olur
 GITHUB DAKI REPOSITORY I BILGISAYARIMIZA KLONLAMAK
 git init 
 git pull repoadresi
+---------------------
+COMMIT GECMİSİNİ GÖRMEK 
+git log komutu ile eski commit ve commit id lerini görebiliyoruz
+
