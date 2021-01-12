@@ -35,4 +35,6 @@ git pull repoadresi
 ---------------------
 COMMIT GECMİSİNİ GÖRMEK 
 git log komutu ile eski commit ve commit id lerini görebiliyoruz
+---------------------
+git checkout commitidilk8hanesi ile eski commite dönebiliyoruz
 
